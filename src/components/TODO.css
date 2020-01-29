@@ -1,0 +1,106 @@
+.block_title {
+    text-align: center;
+  }
+
+  .true {
+    color: red;
+    border: 1px dashed silver;
+  }
+  
+  #ToDoList {
+    float: left;
+    margin: 4.9%;
+    width: 40%;
+    height: 350px;
+    background-color: #FAFAFA;
+    padding: 2vw;
+    overflow-y: auto;
+  }
+  
+
+  @keyframes lights{
+    from {box-shadow: 5px 10px 10px greenyellow;
+          animation-timing-function: ease;}
+    25% {box-shadow: 5px 10px 10px yellow;
+          animation-timing-function: ease;}
+    50% {box-shadow: 5px 10px 10px red;
+          animation-timing-function: ease;}
+    75% {box-shadow: 5px 10px 10px lightblue;
+          animation-timing-function: ease;}
+    to {box-shadow: 5px 10px 10px purple;
+          animation-timing-function: ease;}
+  }
+
+  .todo_elem label {
+    margin: 20px;
+    width: 75%;
+  }
+
+  .todo_elem input {
+    margin-left: 5px;
+  }
+
+  .todo_elem {
+    margin: 0.5vw;
+    transition: 0.2s;
+  }
+
+  .text {
+    font-size: 1vw;
+  }
+
+  .todo_elem label div input {
+    height: 2.8vh;
+  }
+
+  #todo_func {
+    padding-top: 1vh;
+    margin: 0;
+    float: right;
+  }
+
+  #todo_func span {
+    padding-top: 0.5vw;
+    padding-right: 1vw;
+  }
+
+  #add_do {
+    display: block;
+    margin: 0px auto;
+  }
+
+  #add_do_input {
+    display: block;
+    width: 65%;
+    height: 3.2vh;
+    margin: 5px auto;
+    margin-bottom: 1.2vh;
+  }
+
+  .btn {
+    display: block;
+    margin: 0px auto;
+    width: 25%;
+    margin-bottom: 5vh;
+  }
+
+  .fas {
+    transition: 0.2s;
+  }
+
+  .fa-pencil-alt:hover {
+    color: #F5B041;
+  }
+
+  .fa-exclamation:hover {
+    color: #C0392B;
+  }
+
+  .fa-times:hover {
+    color: #E74C3C;
+  }
+
+  .fa-check:hover {
+    color: #44bd32;
+  }
+
